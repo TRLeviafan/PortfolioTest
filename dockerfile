@@ -1,5 +1,5 @@
 # Выбираем "базу" для нашей коробки — среду с Node.js
-FROM node:18-alpine
+FROM node:20-alpine
 
 # Устанавливаем pnpm внутри коробки
 RUN npm install -g pnpm
